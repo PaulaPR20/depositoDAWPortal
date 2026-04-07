@@ -2,7 +2,9 @@ package cuentas;
 
 public class CCuenta {
 
-    
+    /**
+     * Atributos clase CCuenta
+     */
     private String nombre;
     private String cuenta;
     private double saldo;
@@ -70,6 +72,13 @@ public class CCuenta {
     {
     }
 
+    /**
+     * inicializador clase CCuenta
+     * @param nom nombre del titular de la cuenta
+     * @param cue numero IBAN cuenta
+     * @param sal cantidad de dinero que posee la cuenta
+     * @param tipo tipo de interes que tiene la cuenta
+     */
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
         nombre =nom;
@@ -77,11 +86,20 @@ public class CCuenta {
         saldo=sal;
     }
 
+    /**
+     * método que devuelve el estado de la cuenta
+     * @return estado cuenta
+     */
     public double estado()
     {
         return getSaldo();
     }
 
+    /**
+     * método que permite ingresar una cantidad determinada de dinero a la cuenta
+     * @param cantidad cantidad de dinero a introducir
+     * @throws Exception si la cantidad introducida es negativa
+     */
     public void ingresar(double cantidad) throws Exception
     {
         if (cantidad<0)
@@ -89,6 +107,11 @@ public class CCuenta {
         setSaldo(getSaldo() + cantidad);
     }
 
+    /**
+     * método que permite retirar una cantidad determinada de dinero de la cuenta
+     * @param cantidad
+     * @throws Exception la cantidad introducida no puede ser negativa ni superior al saldo de la cuenta
+     */
     public void retirar(double cantidad) throws Exception
     {
         if (cantidad <= 0)
