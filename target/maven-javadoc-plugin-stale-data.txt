@@ -1,0 +1,42 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+--no-fonts
+-encoding
+'UTF-8'
+-protected
+--release
+25
+-sourcepath
+'C:/Users/Usuario/Documents/NetBeansProjects/deposito/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Usuario/Documents/NetBeansProjects/deposito/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'deposito 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'deposito 1.0-SNAPSHOT API'
+cuentas
+C:\Users\Usuario\Documents\NetBeansProjects\deposito\src\main\java = 1775569491119
+C:\Users\Usuario\Documents\NetBeansProjects\deposito\target\reports\apidocs\allclasses-index.html = 1775572806900
+C:\Users\Usuario\Documents\NetBeansProjects\deposito\target\reports\apidocs\allpackages-index.html = 1775572806905
+C:\Users\Usuario\Documents\NetBeansProjects\deposito\target\reports\apidocs\element-list = 1775572806845
+C:\Users\Usuario\Documents\NetBeansProjects\deposito\target\reports\apidocs\help-doc.html = 1775572806943
+C:\Users\Usuario\Documents\NetBeansProjects\deposito\target\reports\apidocs\index-all.html = 1775572806930
+C:\Users\Usuario\Documents\NetBeansProjects\deposito\target\reports\apidocs\index.html = 1775572806937
+C:\Users\Usuario\Documents\NetBeansProjects\deposito\target\reports\apidocs\member-search-index.js = 1775572806912
+C:\Users\Usuario\Documents\NetBeansProjects\deposito\target\reports\apidocs\module-search-index.js = 1775572806907
+C:\Users\Usuario\Documents\NetBeansProjects\deposito\target\reports\apidocs\overview-tree.html = 1775572806884
+C:\Users\Usuario\Documents\NetBeansProjects\deposito\target\reports\apidocs\package-search-index.js = 1775572806909
+C:\Users\Usuario\Documents\NetBeansProjects\deposito\target\reports\apidocs\search.html = 1775572806934
+C:\Users\Usuario\Documents\NetBeansProjects\deposito\target\reports\apidocs\tag-search-index.js = 1775572806914
+C:\Users\Usuario\Documents\NetBeansProjects\deposito\target\reports\apidocs\type-search-index.js = 1775572806910
