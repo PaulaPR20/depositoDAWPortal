@@ -1,5 +1,11 @@
 package cuentas;
 
+/**
+ * clase CCuenta
+ * @author Paula Portal
+ * @since 7/4/26
+ * @version 1.0
+ */
 public class CCuenta {
 
     /**
@@ -12,6 +18,7 @@ public class CCuenta {
     
     
     /**
+     * devuelve el nombre del titular de la cuenta
      * @return the nombre
      */
     public String getNombre() {
@@ -19,6 +26,7 @@ public class CCuenta {
     }
 
     /**
+     * modifica el nombre del titular de la cuenta
      * @param nombre the nombre to set
      */
     public void setNombre(String nombre) {
@@ -26,6 +34,7 @@ public class CCuenta {
     }
 
     /**
+     * devuelve el IBAN de la cuenta
      * @return the cuenta
      */
     public String getCuenta() {
@@ -33,6 +42,7 @@ public class CCuenta {
     }
 
     /**
+     * modifica el IBAN de la cuenta
      * @param cuenta the cuenta to set
      */
     public void setCuenta(String cuenta) {
@@ -40,6 +50,7 @@ public class CCuenta {
     }
 
     /**
+     * devuelve la cantidad de dinero de la cuenta
      * @return the saldo
      */
     public double getSaldo() {
@@ -47,6 +58,7 @@ public class CCuenta {
     }
 
     /**
+     * modifica la cantidad de dinero de la cuenta
      * @param saldo the saldo to set
      */
     public void setSaldo(double saldo) {
@@ -54,6 +66,7 @@ public class CCuenta {
     }
 
     /**
+     * la cantidad el tipo de interes de la cuenta
      * @return the tipoInterés
      */
     public double getTipoInterés() {
@@ -61,6 +74,7 @@ public class CCuenta {
     }
 
     /**
+     * modifica la cantidad el tipo de interes de la cuenta
      * @param tipoInterés the tipoInterés to set
      */
     public void setTipoInterés(double tipoInterés) {
@@ -68,6 +82,9 @@ public class CCuenta {
     }
 
 
+    /**
+     * metodo que ejecutaria el codigo introducido en el al iniciarse la clase
+     */
     public CCuenta()
     {
     }
